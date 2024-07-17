@@ -54,8 +54,8 @@
     "scan_and_verify": "Scan and Verify",
     "sign_in_with_biometric": "Login with Biometric",
     "retry": "Retry",
-    "vid_label_text": "Enter Your NRCID",
-    "vid_placeholder": "NRCID",
+    "vid_label_text": "ENTER NRC Number",
+    "vid_placeholder": "NRC",
     "Face": "Face",
     "Finger": "Finger",
     "Iris": "Iris",
@@ -107,9 +107,9 @@
     "not_a_robot": "I'm Not a Robot",
     "get_otp": "Get OTP",
     "verify": "Verify",
-    "vid_label_text": "Enter Your NRCID",
+    "vid_label_text": "ENTER NRC Number",
     "otp_label_text": "OTP",
-    "vid_placeholder": "NRCID",
+    "vid_placeholder": "NRC",
     "otp_placeholder": "1234",
     "mobile_number": "Mobile Number",
     "email_address": "Email Address",
@@ -148,14 +148,14 @@
     "invalid_auth_factor": "Invalid Auth Factors. Please Try Again...",
     "download_now": "Download Now",
     "logo_alt": "eSignet",
-    "backgroud_image_alt": "Sign in with eSignet",
+    "backgroud_image_alt": "Sign In with NRC Number",
     "language": "Language",
     "noAccount": "Don't have an account?",
     "signup_for_unified_login": "Sign Up with Unified Login",
     "subheader_text": {
       "all_login_options": "Please choose the login option",
-      "otp_login": "Please enter your NRCID",
-      "biometrics_login": "Please enter your NRCID & verify using the Biometric device",
+      "otp_login": "Please enter your NRC Number",
+      "biometrics_login": "Please enter your NRC Number & verify using the Biometric device",
       "pin_login": "Please enter your UIN/VID and PIN",
       "password_login": "Please enter your registered username and password",
       "kba_login": "Please fill the below details",
@@ -266,7 +266,7 @@
     "invalid_challenge_format": "Invalid Authentication challenge format found.",
     "link_code_limit_reached": "Number of allowed Link code per transaction limit reached.",
     "failed_to_generate_header_hash": "Failed to generate oauth-details-hash http header value.",
-    "invalid_individual_id": "Invalid Individual ID",
+    "invalid_individual_id": "Invalid NRC Number",
     "invalid_pin": "Invalid Pin",
     "invalid_email": "Invalid Email ID",
     "invalid_phone": "Invalid Phone number",
@@ -405,7 +405,7 @@
       "send_otp_failed_msg": "Failed to Send OTP",
       "invalid_otp_channel": "Invalid OTP Channel Provided.",
       "auth_failed": "Incorrect OTP. Please try again.",
-      "IDA-MLC-018": "Invalid NRCID. Please enter a valid NRCID."
+      "IDA-MLC-018": "Invalid NRC Number. Please enter a valid NRC Number."
     },
     "biometrics": {
       "IDA-BIA-001": "Biometric data did not match",
@@ -426,7 +426,7 @@
       "IDA-BIA-017": "Unable to Perform Biometric Match due to a Technical Issue",
       "IDA-BIA-018": "Unable to Process the Request due to a Technical Issue",
       "auth_failed": "Biometric data not available. Please try again.",
-      "IDA-MLC-018": "Invalid NRCID. Please enter a valid NRCID."
+      "IDA-MLC-018": "Invalid NRC Number. Please enter a valid NRC Number."
     },
     "pin": {
       "invalid_pin": "Invalid Pin",

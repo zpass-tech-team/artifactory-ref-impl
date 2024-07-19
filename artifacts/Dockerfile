@@ -121,6 +121,8 @@ RUN mkdir -p ${biosdk_client_zip_path}/biosdk-client ${demosdk_zip_path}/demosdk
 
 # Copy all the respective jars to the location
 
+COPY /src/sms/* ${kernel_jar_path}/
+
 COPY /src/sdk/biosdk/install.sh ${biosdk_client_zip_path}/biosdk-client/
 
 COPY /src/sdk/demosdk/install.sh ${demosdk_zip_path}/demosdk/

@@ -18,6 +18,7 @@
     "preferred_username": "Preferred User Name",
     "picture": "Picture",
     "gender": "Gender",
+    "nrcId": "NRCID",
     "birthdate": "Birthdate",
     "locale": "Locale",
     "nickname": "Nickname",

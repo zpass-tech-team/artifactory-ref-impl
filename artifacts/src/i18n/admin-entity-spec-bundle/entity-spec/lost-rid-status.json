@@ -36,7 +36,7 @@
       "noSort": "true"
     },
     {
-      "name": "name",
+      "name": "firstName",
       "showInListView": "true",
       "showInSingleView": "true",
       "label": {"eng": "Name","ara": "اسم","fra": "prénom","tam": "பெயர்","hin": "नाम","kan": "ಹೆಸರು"},
@@ -74,9 +74,9 @@
       "ismandatory": "true"
     },
     {
-      "filtername": "name",
+      "filtername": "firstName",
       "filterlabel": {
-        "eng": "Name",
+        "eng": "Firstname",
         "ara": "اسم",
         "fra": "prénom",
         "tam": "பெயர்",
@@ -92,6 +92,44 @@
       "methodCallName": "",
       "ismandatory": "true"
     },
+    {
+      "filtername": "lastName",
+      "filterlabel": {
+        "eng": "Lastname",
+        "ara": "اسم",
+        "fra": "prénom",
+        "tam": "பெயர்",
+        "hin": "नाम",
+        "kan": "ಹೆಸರು"
+      },
+      "filterType": "equals",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "lostRid",
+      "fieldName": "name",
+      "methodCallName": "",
+      "ismandatory": "true"
+    },
+    {
+      "filtername": "nrcId",
+      "filterlabel": {
+        "eng": "NRC Number",
+        "ara": "اسم",
+        "fra": "prénom",
+        "tam": "பெயர்",
+        "hin": "नाम",
+        "kan": "ಹೆಸರು"
+      },
+      "filterType": "equals",
+      "autocomplete": "false",
+      "dropdown": "false",
+      "datePicker": "false",
+      "apiName": "lostRid",
+      "fieldName": "nrcId",
+      "methodCallName": "",
+      "ismandatory": "false"
+    },    
     {
       "filtername": "email",
       "filterlabel": {
